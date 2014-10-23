@@ -8,10 +8,12 @@ Facebook Graph allows any web page to have the same functionality as any other o
 Use this extension to Make your Magento store Graph compatible and enable any web page on your site to become a rich object in a social graph. 
 This will enables the use of Open Graph analytics and more advanced social Add-ons.
 
-Instructions
+Installation 
 ====================
 
     1. Install the Extention
     2. Clear Cache, log out and back in
     3. Navigate to System -> Configuration -> Social Share
     4. Enable Open Graph Tags, and You're Done
+
+	For Facebook analytics create a facebook application on from http://www.facebook.com/developers/createapp.php and insert in your Application ID
