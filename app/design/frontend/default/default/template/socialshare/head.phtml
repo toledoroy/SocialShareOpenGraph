@@ -1,0 +1,19 @@
+<!-- SocialShare - OpenGraphTags Head -->
+<?php if (Mage::getStoreConfig('opengraphtags/facebook/fb_appid') != ''): ?>
+<meta property="fb:app_id" content="<?php echo trim(Mage::getStoreConfig('opengraphtags/facebook/fb_appid'));?>" />
+<?php endif; ?>
+<?php if (Mage::getStoreConfig('opengraphtags/facebook/fb_admins') != ''): ?>
+<meta property="fb:admins" content="<?php echo trim(Mage::getStoreConfig('opengraphtags/facebook/fb_admins'));?>" />
+<?php endif; ?>
+<meta property="og:url" content="<?php echo $this->helper('core/url')->getCurrentUrl();?>" />
+<meta property="og:site_name" content="<?php echo Mage::app()->getStore()->getName(); ?>" />
+<?php $_product = Mage::registry('current_product');
+if ($_product): ?>
+<meta property="og:type" content="product" />
+<meta property="og:title" content="<?php echo trim($_product->getName()); ?>"/>
+<meta property="og:image" content="<?php echo Mage::helper('catalog/image')->init($_product, 'image');?>"/>
+<meta property="og:price:amount" content="<?php echo $_product->getSpecialPrice() ?>" />
+<meta property="og:price:standard_amount" content="<?php echo $_product->getPrice() ?>" />
+<meta property="og:price:currency" content="<?php echo  Mage::app()->getStore()->getCurrentCurrencyCode(); ?>" />
+<?php endif; ?>
+<!-- SocialShare - OpenGraphTags Head END -->
