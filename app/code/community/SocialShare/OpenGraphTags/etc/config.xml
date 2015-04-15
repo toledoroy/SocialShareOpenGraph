@@ -2,7 +2,7 @@
 <config>
     <modules>
         <SocialShare_OpenGraphTags>
-            <version>1.0</version>
+            <version>3.0</version>
         </SocialShare_OpenGraphTags>
     </modules>
 
@@ -10,7 +10,7 @@
         <layout>
             <updates>
                 <OpenGraphTags>
-                    <file>OpenGraphTags.xml</file>
+                    <file>socialshare/OpenGraphTags.xml</file>
                 </OpenGraphTags>
             </updates>
         </layout>
