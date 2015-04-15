@@ -19,7 +19,7 @@ Installation
     3. Navigate to System -> Configuration -> Social Share
     4. Enable Open Graph Tags, and You're Done
 
-	For Facebook Support and analytics create a facebook application on from http://www.facebook.com/developers/createapp.php and insert in your Application ID
+	For Facebook Support and analytics create a facebook application on http://www.facebook.com/developers/createapp.php and insert in your Application ID
 	
 Change Log	
 ====================
