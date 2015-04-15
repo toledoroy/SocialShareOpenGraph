@@ -8,6 +8,8 @@ Facebook Graph allows any web page to have the same functionality as any other o
 Use this extension to Make your Magento store Graph compatible and enable any web page on your site to become a rich object in a social graph. 
 This will enables the use of Open Graph analytics and more advanced social Add-ons.
 
+See on Magento Commerce http://www.magentocommerce.com/magento-connect/socialshare-open-graph.html
+
 
 Installation 
 ====================
