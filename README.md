@@ -23,6 +23,13 @@ Installation
 	
 Change Log	
 ====================
+	V3.0.2
+			* Open Graph Protocol Updates
+			* Changed is_empty value check
+			* added default price 0.00 for type 'product' as to facebook requirements
+			* Striping HTML Before using htmlspecialchars
+	V3.0.1		
+			* Tested on Magento 1.9.2
 	V3.0.0
 		1.       Moved layout XML into a socialshare folder
 		2.       Moved design phtml into base/default to support fallback of non-default based themes
