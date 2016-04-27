@@ -1,0 +1,4 @@
+app/code/community/SocialShare/OpenGraphTags             app/code/community/SocialShare/OpenGraphTags
+app/design/frontend/base/default/layout/socialshare      app/design/frontend/base/default/layout/socialshare
+app/design/frontend/base/default/template/socialshare    app/design/frontend/base/default/template/socialshare
+app/etc/modules/SocialShare_OpenGraphTags.xml            app/etc/modules/SocialShare_OpenGraphTags.xml
