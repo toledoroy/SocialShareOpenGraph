@@ -23,6 +23,8 @@ Installation
 	
 Change Log	
 ====================
+	V3.0.3
+			* Bugfix
 	V3.0.2
 			* Open Graph Protocol Updates
 			* Changed is_empty value check
@@ -44,7 +46,7 @@ Change Log
 
 	
 	
-Code Suggestions Reference  
+Code Reference  
 ====================
 
 	Type tags and CMS determination logic and type article
